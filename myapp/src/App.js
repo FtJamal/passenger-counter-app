@@ -14,7 +14,7 @@ function App() {
 
   function save() {
     let countStr = count + " - ";
-    // saveEl = saveEl.textContenttStr + countStr
+    // saveEl = saveEl.innerHTML + countStr
     saveEl.innerHTML += countStr
     countEl.textContent = 0
     count = 0
