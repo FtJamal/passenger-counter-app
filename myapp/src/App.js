@@ -8,14 +8,14 @@ function App() {
 
   function increment() {
     count += 1 //   count = count + 1;
-    countEl.innerHTML = count
+    countEl.innerText = count
     // OR  document.getElementById("count-el").innerHTML = count
   }
 
   function save() {
     let countStr = count + " - ";
     // saveEl = saveEl.innerHTML + countStr
-    saveEl.innerHTML += countStr
+    saveEl.innerText += countStr
     countEl.textContent = 0
     count = 0
   }
